@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <title>NumerycznyKonwerter</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<form action="/convert" method="POST">
+    <p>Podaj całkowitą liczbę do konwersji</p>
+    <div>
+        <label for="arabicNumber">Liczba w systemie arabskim:</label>
+        <input name="arabicNumber" id="arabicNumber" pattern="^-?\d+$">
+    </div>
+    <div>
+        <input type="radio" name="radioType" id="romeType" value="romeType" checked>
+        <label for="romeType">System rzymski</label>
+    </div>
+    <div>
+        <input type="radio" name="radioType" id="hexType" value="hexType">
+        <label for="hexType">System szesnastokowy</label>
+    </div>
+    <div>
+        <button>Konwertuj</button>
+    </div>
+</form>
+</body>
+</html>
