@@ -44,7 +44,7 @@ public class ConverterApplication {
 
 
     /**
-     * convert gets params from user by @RequestParam on index.html. Its main goal is to check user input,
+     * convert gets params from user by RequestParam on index.html. Its main goal is to check user input,
      * it is also responsible to convert int to hex it returns hex complement code for hexType option
      * and rome representation for romeType option.
      *
